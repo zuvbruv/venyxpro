@@ -222,7 +222,7 @@ do
 	
 	-- new classes
 	
-	function library.new(title)
+	function library.new(title, uiName)
 		local container = utility:Create("ScreenGui", {
 			Name = "_zynxu",
 			Parent = game:GetService("CoreGui")
